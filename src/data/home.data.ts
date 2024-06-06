@@ -15,6 +15,11 @@ const {
 	ICON_TWITTER,
 	ICON_YOUTUBE,
 	ICON_TIKTOK,
+	ICON_TARGET,
+	ICON_DATA,
+	ICON_TPS,
+	ICON_PEOPLE,
+	ICON_TIME,
 } = ImageConstant;
 export const HomeData = {
 	title: "Welcome to My Website",
@@ -61,30 +66,35 @@ export const HomeData = {
 				title: "Optimalisasi Waktu dan Anggaran Kampanye",
 				description:
 					"Big data berbasis teknologi Artificial Intelligence yang memberikan data secara komprehensif dan akurat.",
+				image: ICON_TIME,
 			},
 			{
 				id: 2,
 				title: "Strategi Penargetan Mikro",
 				description:
 					"Menampilkan peta politik, sosial, dan ekonomi, daerah pemilihan Anda secara rinci.",
+				image: ICON_TARGET,
 			},
 
 			{
 				id: 3,
 				title: "Menyediakan Data Pemilih Potensial Nasional",
 				description: "Dapatkan analisis potensi suara, hingga level TPS.",
+				image: ICON_DATA,
 			},
 			{
 				id: 4,
 				title: "Personalisasi Strategi Kampanye",
 				description:
 					"Dapatkan strategi personal untuk kampanye nano targeting.",
+				image: ICON_PEOPLE,
 			},
 			{
 				id: 5,
 				title: "Rekomendasi TPS Prioritas",
 				description:
 					"Dapatkan 3 kategori rekomendasi TPS. Mulai dari TPS bertahan, TPS serang hingga TPS gerilya.",
+				image: ICON_TPS,
 			},
 		],
 	},

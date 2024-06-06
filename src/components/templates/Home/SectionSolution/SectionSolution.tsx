@@ -1,4 +1,3 @@
-import { ImageConstant } from "@/constants";
 import { HomeData } from "@/data";
 import Image from "next/image";
 
@@ -17,8 +16,8 @@ export const SectionSolution = () => {
 						className="transition duration-200 ease-in-out p-4 md:p-8 flex flex-col justify-center text-center gap-8 items-center"
 					>
 						<Image
-							className="w-[98px] md:w-[155px] lg:w-[155px] h-[124px] md:h-[168px] lg:h-[168px]"
-							src={ImageConstant.BACKGROUND_CONTENT}
+							className="w-[200pxx] md:w-[200px] lg:w-[200px] h-[124px] md:h-[168px] lg:h-[168px]"
+							src={value.image}
 							width={155}
 							height={188}
 							alt="Problem"
@@ -44,15 +43,20 @@ export const SectionSolution = () => {
 							className="transition duration-200 ease-in-out p-4 md:p-8 flex flex-col justify-center text-center gap-8 items-center col-span-2 sm:col-span-1"
 						>
 							<Image
-								className="w-[98px] md:w-[155px] lg:w-[155px] h-[124px] md:h-[168px] lg:h-[168px]"
-								src={ImageConstant.BACKGROUND_CONTENT}
-								width={155}
+								className={`${
+									index === 1
+										? "w-[300px] md:w-[300px] lg:w-[300px] h-[124px] md:h-[168px] lg:h-[168px]"
+										: "w-[98px] md:w-[155px] lg:w-[155px] h-[124px] md:h-[168px] lg:h-[168px]"
+								}`}
+								src={value.image}
+								width={index === 1 ? 600 : 155}
 								height={188}
 								alt="Problem"
 							/>
 							<div className="text-black">
 								<h3 className="text-xl font-bold mb-4 text-center mx-0rem md:[2rem] lg:mx-[2rem]">
 									{value?.title}
+									{index}
 								</h3>
 								<p className="mx-[0rem] md:mx-[4rem] lg:mx-[4rem]">
 									{value?.description}

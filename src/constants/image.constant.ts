@@ -9,6 +9,11 @@ export abstract class ImageConstant {
 	static BACKGROUND_METHOD = "/background/banner-method.webp";
 	static BACKGROUND_ABOUT = "/background/banner-about.webp";
 	static BACKGROUND_BANNER = "/background/pai-banner-howto.webp";
+	static ICON_TARGET = "/icons/icon-target.png";
+	static ICON_DATA = "/icons/icon-data.png";
+	static ICON_TPS = "/icons/icon-tps.png";
+	static ICON_PEOPLE = "/icons/icon-people.png";
+	static ICON_TIME = "/icons/icon-time.png";
 
 	// Service Content
 	static SERVICE_DATA_POLITICS = "/services/data-politik.webp";
