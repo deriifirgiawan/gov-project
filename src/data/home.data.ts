@@ -32,27 +32,27 @@ export const HomeData = {
 				id: 1,
 				title: "Alokasi Anggaran Yang Membengkak",
 				description:
-					"Caleg kerap kali kesulitan mengontrol anggaran yang disiapkan karena kondisi lapangan yang sangat dinamis.",
+					"Kandidat kerap kali kesulitan mengontrol anggaran yang disiapkan karena kondisi lapangan yang sangat dinamis.",
 			},
 			{
 				id: 2,
 				title: "Persaingan Yang Kompetitif",
 				description:
-					"Caleg kerap kali kesulitan mempertahankan basis suara dan memetakan potensi suara yang bisa diraih.",
+					"Kandidat kerap kali kesulitan mempertahankan basis suara dan memetakan potensi suara yang bisa diraih.",
 			},
 			,
 			{
 				id: 3,
 				title: "Kebutuhan Konstituen Yang Beragam",
 				description:
-					"Caleg kerap kali kesulitan memahami kebutuhan konstituen karena keterbatasan data hingga isu terkini di dapil.",
+					"Kandidat kerap kali kesulitan memahami kebutuhan konstituen karena keterbatasan data hingga isu terkini di dapil.",
 			},
 			,
 			{
 				id: 4,
 				title: "Manajemen Timses Yang Rumit",
 				description:
-					"Caleg kerap kali kesulitan memantau pergerakan timses dan validasi hasil pekerjaan timses dilakukan secara manual.",
+					"Kandidat kerap kali kesulitan memantau pergerakan timses dan validasi hasil pekerjaan timses dilakukan secara manual.",
 			},
 		],
 	},
@@ -124,7 +124,7 @@ export const HomeData = {
 		},
 		{
 			id: 4,
-			title: "Video Panduan Penggunaan Dashboard Monev Caleg Bupati.AI",
+			title: "Video Panduan Penggunaan Dashboard Monev Kandidat Bupati.AI",
 		},
 		{
 			id: 5,
