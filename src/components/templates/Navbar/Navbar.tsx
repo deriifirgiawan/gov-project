@@ -80,12 +80,13 @@ export const Navbar = () => {
 										</NavigationMenuTrigger>
 									</Link>
 									<NavigationMenuContent>
-										<ul className="w-[400px]">
+										<ul className="w-[400px] p-8 gap-5 flex flex-col">
 											{value.subLink?.map((item) => {
 												return (
 													<Link
 														key={item.slug}
 														href={`/${value.slug}${item.slug}`}
+														className="hover:text-red-700"
 													>
 														{item.name}
 													</Link>
@@ -159,7 +160,7 @@ export const Navbar = () => {
 												} ml-4`}
 												href={`/${item.slug}`}
 											>
-												- {item.name}
+												{item.name}
 											</Link>
 										))}
 									</div>
